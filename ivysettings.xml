@@ -1,0 +1,23 @@
+<!--
+ ! Excerpted from "Grails: A Quickstart Guide",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/dkgrails for more book information.
+-->
+<ivysettings>
+  <settings defaultResolver="codehaus-plus"/>
+  <include url="${ivy.default.settings.dir}/ivysettings-public.xml" />
+  <include url="${ivy.default.settings.dir}/ivysettings-shared.xml"/>
+  <include url="${ivy.default.settings.dir}/ivysettings-local.xml" />
+  <include url="${ivy.default.settings.dir}/ivysettings-main-chain.xml"/>
+  <resolvers>
+    <chain name="codehaus-plus" dual="true">
+      <ibiblio name="codehaus-snapshots" root="http://snapshots.repository.codehaus.org" m2compatible="true" changingPattern=".*SNAPSHOT"/>
+      <ibiblio name="codehaus" root="http://repository.codehaus.org" m2compatible="true"/>
+      <ibiblio name="javanet" root="http://download.java.net/maven/2/" m2compatible="true"/>
+      <resolver ref="public"/>
+    </chain>
+  </resolvers>
+</ivysettings>
