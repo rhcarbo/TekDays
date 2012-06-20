@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="bigmac.local" id="0" name="TekEventControllerTests" package="tekdays" tests="1" time="0.775" timestamp="2012-06-13T13:17:34">
+      <properties />
+
+      <testcase classname="tekdays.TekEventControllerTests" name="testSomething" time="0.754" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="bigmac.local" id="1" name="TekEventTests" package="tekdays" tests="1" time="0.048" timestamp="2012-06-13T13:17:35">
+      <properties />
+
+      <testcase classname="tekdays.TekEventTests" name="testToString" time="0.039" />
+
+      <system-out><![CDATA[--Output from testToString--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testToString--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="bigmac.local" id="2" name="TekUserControllerTests" package="tekdays" tests="1" time="0.042" timestamp="2012-06-13T13:17:35">
+      <properties />
+
+      <testcase classname="tekdays.TekUserControllerTests" name="testSomething" time="0.033" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="bigmac.local" id="3" name="TekUserTests" package="tekdays" tests="1" time="0.016" timestamp="2012-06-13T13:17:35">
+      <properties />
+
+      <testcase classname="tekdays.TekUserTests" name="testSomething" time="0.013" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="bigmac.local" name="tekdays.TekEventControllerTests" tests="1" time="0.775" timestamp="2012-06-13T13:17:34">
+  <properties />
+  <testcase classname="tekdays.TekEventControllerTests" name="testSomething" time="0.754" />
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>
